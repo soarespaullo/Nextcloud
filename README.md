@@ -96,6 +96,13 @@ O backup dos dados do Nextcloud e do banco de dados é feito de maneira segura, 
 
 O script oferece a opção de **habilitar o modo de manutenção**, o que evita que usuários façam alterações durante o processo de backup. Isso ajuda a garantir que o backup não seja corrompido.
 
+## 🎬 Demonstração
+
+![Demonstração no terminal](assets/nextcloud-backup-demo.gif)
+
+Ou assista no YouTube:  
+[▶ Ver vídeo demonstrativo](https://www.youtube.com/watch?v=ID_DO_VIDEO)
+
 ## 🔄 Agendamento de Backup Automático (Cron)
 
 Você pode agendar o script para ser executado automaticamente em intervalos regulares, utilizando o cron. Isso garante que o backup seja feito periodicamente sem necessidade de intervenção manual.
