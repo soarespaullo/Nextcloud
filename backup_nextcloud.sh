@@ -25,7 +25,7 @@
 # === CORES PARA TERMINAL ===
 VERMELHO="\e[31m" # VERMELHO
 VERDE="\e[32m"	  # VERDE
-AZUL="\e[34m"	   # AZUL
+AZUL="\e[34m"	  # AZUL
 AMARELO="\e[33m"  # AMARELO
 SEM_COR="\e[0m"   # SEM COR
 
