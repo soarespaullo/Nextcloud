@@ -1,5 +1,27 @@
 #!/bin/bash
-
+#
+# ========================================================================
+#  SCRIPT DE BACKUP AUTOMATIZADO DO NEXTCLOUD
+# ------------------------------------------------------------------------
+#  Autor:      Paulo Soares
+#  Contato:    soarespaullo@proton.me
+#  GitHub:     https://github.com/soarespaullo
+#  Telegram:   @soarespaullo
+#  Versão:     2.0
+#  Criado em:  11/04/2025
+# ------------------------------------------------------------------------
+#  Descrição:
+#      Este script realiza o backup automatizado dos arquivos e do banco
+#      de dados do Nextcloud, com verificação de espaço, modo de
+#      manutenção, compressão, e saída amigável com barra de progresso.
+#
+#  Requisitos:
+#      - Executar como root (sudo)
+#      - Utilitários: tar, gzip, pv, mysqldump, php (com Nextcloud OCC)
+#
+#  Licença: MIT
+# ========================================================================
+#
 # === CORES PARA TERMINAL ===
 VERMELHO="\e[31m" # VERMELHO
 VERDE="\e[32m"	  # VERDE
