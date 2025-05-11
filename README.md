@@ -54,7 +54,7 @@ O script pedirá informações sobre:
 
 - **Caminho do diretório do Nextcloud** (ex: `/var/www/nextcloud`)
 
-- **Caminho do diretório de destino do backup** (ex: `/backups/nextcloud`)
+- **Caminho do diretório de destino do backup** (ex: `/media/backups`)
 
 **Credenciais do banco de dados MySQL:**
 
