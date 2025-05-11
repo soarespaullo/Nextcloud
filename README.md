@@ -147,8 +147,8 @@ Se você deseja contribuir para o script, sinta-se à vontade para fazer um **fo
 
 ## 📚 Recursos e Referências
 
-- [Documentação do `Nextcloud`](https://docs.nextcloud.com/){:target="_blank"}
+- [Documentação do `Nextcloud`](https://docs.nextcloud.com/)
 
-- [MySQL - `mysqldump`](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html){:target="_blank"}
+- [MySQL - `mysqldump`](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) 
 
-- [Comando `pv`](https://linux.die.net/man/1/pv){:target="_blank"}
+- [Comando `pv`](https://linux.die.net/man/1/pv)
