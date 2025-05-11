@@ -61,7 +61,7 @@ done
 
 # === SOLICITA E VALIDA O CAMINHO DO BACKUP (OU CRIA SE NÃO EXISTIR) ===
 while true; do
-  echo -ne "${AMARELO}Caminho do destino do backup (ex: /backups/nextcloud): ${SEM_COR}"
+  echo -ne "${AMARELO}Caminho do destino do backup (ex: /media/backup): ${SEM_COR}"
   read -e BACKUP_DIR
   if [[ -d "$BACKUP_DIR" ]]; then
     break
