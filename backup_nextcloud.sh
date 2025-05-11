@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # === CORES PARA TERMINAL ===
-VERMELHO="\e[31m" # Vermelhor
-VERDE="\e[32m"	  # Verde
-AZUL="\e[34m"	  # Azul
-AMARELO="\e[33m"  # Amarelo
-SEM_COR="\e[0m"   # Sem cor
+VERMELHO="\e[31m" # VERMELHO
+VERDE="\e[32m"	  # VERDE
+AZUL="\e[34m"	    # AZUL
+AMARELO="\e[33m"  # AMARELO
+SEM_COR="\e[0m"   # SEM COR
 
 # === VERIFICA SE É ROOT ===
 if [[ "$EUID" -ne 0 ]]; then
@@ -93,7 +93,7 @@ if ! command -v pv &>/dev/null; then
   # Atualiza repositórios silenciosamente
   apt update -qq
   
-  # Instala 'pv' silenciosamente, mostrando uma barra de progresso fake
+  # === INSTALA 'PV' SILENCIOSAMENTE, MOSTRANDO UMA BARRA DE PROGRESSO FAKE ===
   echo -ne "${AZUL}Instalando 'pv'...${SEM_COR}"
   apt install -y pv &> /dev/null
   
@@ -133,12 +133,12 @@ echo -e "\n${VERDE}Backup dos arquivos concluído.${SEM_COR}"
 echo -e "${VERDE}Iniciando backup do banco de dados...${SEM_COR}"
 DUMP_FILE="/tmp/${DB_NAME}_dump.sql"
 
-# Realiza o dump do banco de dados, redirecionando a saída de erro
+# === REALIZA O DUMP DO BANCO DE DADOS, REDIRECIONANDO A SAÍDA DE ERRO ===
 mysqldump -h "$DB_HOST" -u "$DB_USER" -p"$DB_PASS" "$DB_NAME" 2>/dev/null > "$DUMP_FILE"
 if [[ $? -ne 0 ]]; then
   echo -e "${VERMELHO}Erro ao gerar o dump do banco. Verifique as credenciais.${SEM_COR}"
 
-  # Desativa o modo de manutenção caso o backup falhe
+ # === DESATIVA O MODO DE MANUTENÇÃO CASO O BACKUP FALHE ===
   if [[ "$ATIVAR_MANUTENCAO" == "s" || "$ATIVAR_MANUTENCAO" == "S" ]]; then
     echo -e "${AMARELO}Desativando o modo de manutenção do Nextcloud...${SEM_COR}"
     sudo -u www-data php "$NEXTCLOUD_DIR"/occ maintenance:mode --off > /dev/null && \
