@@ -35,7 +35,7 @@ Este script foi desenvolvido para facilitar a realização de backups automátic
 Primeiro, faça o download ou copie o código do script para o seu servidor.
 
 ```
-wget https://url-do-seu-repositorio/backup_nextcloud.sh
+wget https://github.com/soarespaullo/scripts/backup_nextcloud.sh
 ```
 ### 2. Torne o script executável
 
@@ -140,8 +140,8 @@ Se você deseja contribuir para o script, sinta-se à vontade para fazer um **fo
 
 ## 📚 Recursos e Referências
 
-- [Documentação do Nextcloud](https://docs.nextcloud.com/)
+- [Documentação do `Nextcloud`](https://docs.nextcloud.com/)
 
-- [MySQL - mysqldump](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
+- [MySQL - `mysqldump`](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
 
 - [Comando `pv`](https://linux.die.net/man/1/pv)
