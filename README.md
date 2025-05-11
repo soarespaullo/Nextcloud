@@ -7,11 +7,11 @@ Este script foi desenvolvido para facilitar a realização de backups automátic
 ## 🚀 Funcionalidades
 
 - **Backup completo** dos arquivos e banco de dados do Nextcloud.
-- **Verificação de permissões**: O script exige privilégios de `root` para garantir que o processo tenha as permissões necessárias.
-- **Modo de manutenção**: O script permite ativar o modo de manutenção do Nextcloud, evitando que usuários modifiquem os arquivos durante o backup.
-- **Verificação de espaço**: O script verifica se há espaço suficiente disponível no diretório de backup antes de iniciar.
-- **Progresso do backup**: Utiliza a ferramenta `pv` para exibir o progresso do backup de arquivos e banco de dados.
-- **Personalização**: O script permite definir os diretórios de origem e destino, o banco de dados e outras configurações importantes.
+- **Verificação de permissões:** O script exige privilégios de `root` para garantir que o processo tenha as permissões necessárias.
+- **Modo de manutenção:** O script permite ativar o modo de manutenção do Nextcloud, evitando que usuários modifiquem os arquivos durante o backup.
+- **Verificação de espaço:** O script verifica se há espaço suficiente disponível no diretório de backup antes de iniciar.
+- **Progresso do backup:** Utiliza a ferramenta `pv` para exibir o progresso do backup de arquivos e banco de dados.
+- **Personalização:** O script permite definir os diretórios de origem e destino, o banco de dados e outras configurações importantes.
 
 ---
 
@@ -56,7 +56,7 @@ O script pedirá informações sobre:
 
 - **Caminho do diretório de destino do backup** (ex: `/backups/nextcloud`)
 
-**Credenciais do banco de dados MySQL**:
+**Credenciais do banco de dados MySQL:**
 
 - **Host do MySQL** (ex: `localhost`)
 
