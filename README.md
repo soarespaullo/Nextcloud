@@ -42,6 +42,8 @@ git clone https://github.com/soarespaullo/scripts.git
 ```
 chmod +x backup_nextcloud.sh
 ```
+---
+
 ## 🏃‍♂️ Como Usar
 
 ### 1. Execute o script como root
@@ -96,12 +98,16 @@ O backup dos dados do Nextcloud e do banco de dados é feito de maneira segura, 
 
 O script oferece a opção de **habilitar o modo de manutenção**, o que evita que usuários façam alterações durante o processo de backup. Isso ajuda a garantir que o backup não seja corrompido.
 
+---
+
 ## 🎬 Demonstração
 
 ![Demonstração no terminal](assets/nextcloud-backup-demo.gif)
 
 Ou assista no YouTube:  
 [▶ Ver vídeo demonstrativo](https://www.youtube.com/watch?v=ID_DO_VIDEO)
+
+---
 
 ## 🔄 Agendamento de Backup Automático (Cron)
 
@@ -125,6 +131,8 @@ Isso fará com que o script seja executado automaticamente todos os dias às 2:0
 
 Dica: É uma boa prática utilizar o `logrotate` para organizar os backups, garantindo que os arquivos antigos sejam apagados ou compactados para não ocupar muito espaço em disco.
 
+---
+
 ## ⚙️ Personalização
 
 Você pode personalizar o script conforme suas necessidades, incluindo:
@@ -135,6 +143,8 @@ Você pode personalizar o script conforme suas necessidades, incluindo:
 
 - **Alterar os diretórios padrão:** Se o diretório de instalação do Nextcloud ou o diretório de backup for diferente, basta alterar as variáveis de caminho no script.
 
+---
+
 ## 🧑‍💻 Contribuições
 
 Se você deseja contribuir para o script, sinta-se à vontade para fazer um **fork** do repositório e criar uma **pull request**. Ao contribuir, lembre-se de:
@@ -144,6 +154,8 @@ Se você deseja contribuir para o script, sinta-se à vontade para fazer um **fo
 - Manter a compatibilidade com as versões anteriores.
 
 - Adicionar comentários explicativos no código para melhorar a legibilidade e manutenção.
+
+---
 
 ## 📚 Recursos e Referências
 
