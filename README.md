@@ -155,6 +155,8 @@ Se você deseja contribuir para o script, sinta-se à vontade para fazer um **fo
 
 - Adicionar comentários explicativos no código para melhorar a legibilidade e manutenção.
 
+[💖 Apoie no Ko-fi](https://ko-fi.com/soarespaullo)
+
 ---
 
 ## 📚 Recursos e Referências
