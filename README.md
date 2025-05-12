@@ -159,6 +159,24 @@ Se você deseja contribuir para o script, sinta-se à vontade para fazer um **fo
 
 ---
 
+## 📄 Licença
+
+Este projeto é licenciado sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/soarespaullo/www/blob/main/LICENSE) para mais detalhes.
+
+---
+
+## 👨‍💻 Autor
+
+**Paulo Soares**
+
+- 📧 [soarespaullo@proton.me](mailto:soarespaullo@proton.me)
+
+- 💬 [@soarespaullo](https://t.me/soarespaullo) no Telegram
+
+- 💻 [GitHub](https://github.com/soarespaullo)
+
+---
+
 ## 📚 Recursos e Referências
 
 - [Documentação do `Nextcloud`](https://docs.nextcloud.com/)
