@@ -35,7 +35,7 @@ Este script foi desenvolvido para facilitar a realização de backups automátic
 Primeiro, faça o download ou copie o código do script para o seu servidor.
 
 ```
-git clone https://github.com/soarespaullo/scripts.git
+git clone https://github.com/soarespaullo/Nextcloud.git
 ```
 ### 2. Torne o script executável
 
