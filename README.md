@@ -161,7 +161,7 @@ Se você deseja contribuir para o script, sinta-se à vontade para fazer um **fo
 
 ## 📄 Licença
 
-Este projeto é licenciado sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/soarespaullo/www/blob/main/LICENSE) para mais detalhes.
+Este projeto é licenciado sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/soarespaullo/Nextcloud/blob/main/LICENSE) para mais detalhes.
 
 ---
 
