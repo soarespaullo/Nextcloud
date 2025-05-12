@@ -108,11 +108,11 @@ if (( REQUIRED_SPACE_GB > AVAILABLE_SPACE_GB )); then
   echo -e "${VERMELHO}Espaço insuficiente para o backup!${SEM_COR}"
   exit 1
 fi
-# === VERIFICA SE O 'pv' ESTÁ INSTALADO, SENÃO INSTALA COM SAÍDA AMIGÁVEL ===
+# === VERIFICA SE O 'PV' ESTÁ INSTALADO, SENÃO INSTALA COM SAÍDA AMIGÁVEL ===
 if ! command -v pv &>/dev/null; then
   echo -e "${AMARELO}O utilitário 'pv' não está instalado. Iniciando instalação...${SEM_COR}"
   
-  # Atualiza repositórios silenciosamente
+# === ATUALIZA REPOSITÓRIOS SILENCIOSAMENTE ===
   apt update -qq
   
   # === INSTALA 'PV' SILENCIOSAMENTE, MOSTRANDO UMA BARRA DE PROGRESSO FAKE ===
