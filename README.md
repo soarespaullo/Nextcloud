@@ -161,7 +161,7 @@ Se você deseja contribuir para o script, sinta-se à vontade para fazer um **fo
 
 ## 📄 Licença
 
-Este projeto é licenciado sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/soarespaullo/Nextcloud/blob/main/LICENSE) para mais detalhes.
+Este projeto é licenciado sob a licença `MIT`. Veja o arquivo [**LICENSE**](https://github.com/soarespaullo/Nextcloud/blob/main/LICENSE) para mais detalhes.
 
 ---
 
@@ -169,11 +169,11 @@ Este projeto é licenciado sob a licença MIT. Veja o arquivo [LICENSE](https://
 
 **Paulo Soares**
 
-- 📧 [soarespaullo@proton.me](mailto:soarespaullo@proton.me)
+- 📧 [**soarespaullo@proton.me**](mailto:soarespaullo@proton.me)
 
-- 💬 [@soarespaullo](https://t.me/soarespaullo) no Telegram
+- 💬 [**@soarespaullo**](https://t.me/soarespaullo) no Telegram
 
-- 💻 [GitHub](https://github.com/soarespaullo)
+- 💻 [**GitHub**](https://github.com/soarespaullo)
 
 ---
 
